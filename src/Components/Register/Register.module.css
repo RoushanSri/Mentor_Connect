@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(45deg, rgb(197, 181, 255) 0%, rgb(16, 4, 147) 100%);
+}
+.wrapper {
+    width: 900px;
+    padding: 2rem;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    backdrop-filter: blur(50px);
+    color: #fff;
+    border-radius: 20px;
+    line-height: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.wrapper .IMG{
+    background: url(https://i.pinimg.com/736x/04/5e/03/045e038b17e9701316c15733257c082a.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+}
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input_box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input_box input {
+    width: 95%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 254, 254, 0.84);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 4px 1px 4px 20px;
+}
+
+.input_box input::placeholder {
+    color: #fff;
+    opacity: 80%;
+}
+.select{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+}
+
+.select> select{
+    border-radius: 5px;
+    outline: none;
+    height: 2rem;
+    color: white;
+    border: 2px solid #fff;
+    background: transparent;
+}
+select> option{
+    background:rgba(14, 14, 14, 0.4);
+}
+.label{
+    font-size: large;
+    
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.register_link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register_link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register_link p a:hover {
+    text-decoration: underline;
+}
